@@ -22,7 +22,7 @@ public class Controller implements Initializable{
 
     @FXML
     void button(ActionEvent event) {
-        a=a+1;
+        a=a+1; //カウント
         String b=String.valueOf(a);
         hello.setText(b);
     }
