@@ -9,4 +9,4 @@
       <Button layoutX="221.0" layoutY="269.0" mnemonicParsing="false" onAction="#button" text="Button" />
       <Label fx:id="hello" layoutX="233.0" layoutY="159.0" text="0" />
    </children>
-</AnchorPane>
+</AnchorPane>　
