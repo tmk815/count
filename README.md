@@ -1,3 +1,3 @@
 # count
 
-*aaaa
+JavaFXでの簡単なカウンターサンプルです
