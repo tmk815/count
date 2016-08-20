@@ -13,7 +13,7 @@ public class Controller implements Initializable{
     @FXML
     private Label hello;
 
-    public int a=0;
+    public int count=0;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -22,8 +22,8 @@ public class Controller implements Initializable{
 
     @FXML
     void button(ActionEvent event) {
-        a=a+1; //カウント
-        String b=String.valueOf(a);
+        count=count+1; //カウント
+        String b=String.valueOf(count);
         hello.setText(b);
     }
 }
